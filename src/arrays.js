@@ -62,7 +62,7 @@ const filter = (elements, cb) => {
 
 const flatten = (elements) => {
   // let set = new Set(arr);
-  const arreturn = [];
+  const flattenedArray = [];
   elements.forEach((t) => {
     let element = t;
     while (typeof element === 'object') {
@@ -70,7 +70,7 @@ const flatten = (elements) => {
     }
     arreturn.push(element);
   });
-  return arreturn;
+  return flattenedArray;
 };
 
 /* eslint-enable no-unused-vars, max-len */
