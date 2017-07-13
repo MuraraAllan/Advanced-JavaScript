@@ -63,9 +63,9 @@ const filter = (elements, cb) => {
 const flatten = (elements) => {
   // let set = new Set(arr);
   const flattenedArray = [];
-  elements.forEach((t) => {
-    let element = t;
-    while (typeof element === 'object') {
+  elements.forEach((item) => {
+    let element = item;
+    while (Array.isArray(element) === true) {
       element = element[0];
     }
     arreturn.push(element);
