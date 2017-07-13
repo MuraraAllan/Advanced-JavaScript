@@ -15,7 +15,7 @@ const checkMatchingLeaves = (obj) => {
   // otherwise return false
 };
 
-/* eslint-enable no-unused-vars */
+/* eslint-enable no-unused-vars*/
 
 module.exports = {
   nFibonacci,

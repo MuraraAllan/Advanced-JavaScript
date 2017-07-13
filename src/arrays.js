@@ -68,7 +68,7 @@ const flatten = (elements) => {
     while (Array.isArray(element) === true) {
       element = element[0];
     }
-    arreturn.push(element);
+    flattenedArray.push(element);
   });
   return flattenedArray;
 };
